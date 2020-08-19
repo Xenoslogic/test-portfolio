@@ -4,12 +4,13 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<!-- HERO -->
 	<section class="hero">
-		<div class="hero-header container">
+		<div class="hero-header container animate__animated animate__bounce">
 			<a class="header-logo" href="index.html"><img src="img/logo-icon.png" alt="header logo"></a>
 			<ul class="social-links">
 				<li><a href="#" class="social-links__item"><img src="img/socials/github.svg" alt="Github"></a></li>
@@ -18,7 +19,7 @@
 				<li><a href="#" class="social-links__item"><img src="img/socials/facebook.svg" alt="Facebook"></a></li>
 			</ul>
 		</div>
-		<div class="hero-main container">
+		<div class="hero-main container animate__animated animate__bounce">
 			<div class="hero-main__about">
 				<h2 class="subtitle">WEB-мастер фрилансер</h2>
 				<h1 class="title">Дмитрий Сердцев</h1>
@@ -35,8 +36,8 @@
 	<!-- FEATURES -->
 	<section class="features">
 		<div class="container">
-			<h2 class="features-title">Со мной удобно работать</h2>
-			<div class="features-block">
+			<h2 class="features-title animate__animated animate__bounce">Со мной удобно работать</h2>
+			<div class="features-block animate__animated animate__bounce">
 				<div class="features-block__card">
 					<img src="img/features/offer-img.svg" alt="по договору" class="features-block__card-img">
 					<h3 class="features-block__card-title">По договору</h3>
@@ -107,11 +108,13 @@
 						<li><a href="#" class="social-links__item"><img src="img/socials/instagram.svg" alt="Instagram"></a></li>
 						<li><a href="#" class="social-links__item"><img src="img/socials/facebook.svg" alt="Facebook"></a></li>
 					</ul>
-					<p class="text-confidential">Политика конфиденциальности</p>
+					<a class="text-confidential" href="#">Политика конфиденциальности</a>
+					
 				</div>
 			</div>
 		</div>
 	</footer>
 	
+<script src="js/main.js"></script>	
 </body>
 </html>

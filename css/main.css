@@ -16,7 +16,8 @@ a {
   color: #ffffff; }
 
 a:hover {
-  color: red; }
+  color: red;
+  text-decoration: underline; }
 
 a:active, a:focus {
   outline: none; }
