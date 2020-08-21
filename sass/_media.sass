@@ -1,103 +1,74 @@
-@media (max-width: 1240px)
-	.rocket
+@media (max-width: 1100px)
+	.hero-main__avatar
 		width: 300px
-
-	.overview-table__column
-		padding-bottom: 12px
-		font-weight: 400
-		font-size: 16px
-		line-height: 28px
-	.overview-table__column-1
-		width: 240px
-	.overview-table__column-2
-		width: 200px
-	.overview-title
-		font-size: 22px
-		line-height: 32px
-	.rocket-description__text
-		max-width: 400px
-		min-height: 145px
-		font-weight: 400
-		font-size: 14px
-		line-height: 26px
+		height: 300px
+		border: 5px solid #ffffff
+	
 
 @media (max-width: 840px)
-	.rocket
-		width: 200px
-
-	.overview-table__column
-		padding-bottom: 12px
-		font-weight: 400
-		font-size: 14px
-		line-height: 26px
-	.overview-table__column-1
-		width: 200px
-	.overview-table__column-2
-		width: 160px
-	.overview-title
-		font-size: 20px
-		line-height: 30px
-	.rocket-description__text
-		max-width: 360px
-		min-height: 145px
-		font-weight: 400
-		font-size: 12px
-		line-height: 24px
-
-@media (max-width: 720px)
-	.header
+	.hero-main
 		flex-direction: column
-		justify-content: center
 		text-align: center
-	.header-logo
+
+	.hero-main__avatar
+		order: 0
+		width: 300px
+		height: 300px
+		border: 5px solid #ffffff
+		margin-bottom: 17px
+	.hero-main__about
+		order: 1
+		text-align: center
+	.hero-main__about-contact-button
+		align-self: center
+	.features-block__card
+		flex-basis: 45%
+	.projects-slider
+		flex-direction: column
+		align-items: center
+	.projects-slider__img
+		margin-bottom: 20px
+	.projects-slider__info
+		align-items: center
+		& p
+		width: 80%
+	.projects-slider__info-title
 		margin-bottom: 15px
-	.header-nav__primary__list
-		justify-content: center
-		margin-bottom: 15px
-	.header-nav__secondary__list
-		justify-content: center
+		text-align: center
+	.projects-slider__info-item:last-child
+		margin-top: 15px
+	.footer-title
+		text-align: center
+		margin-bottom: 40px
+	.footer-contacts-block
+		flex-direction: column
+	.footer-contacts-block__form
+		margin-bottom: 40px
 
-@media (max-width: 620px)
-	.rocket
-		/*display: none*/
-		opacity: 0.3
-		right: 35%
-	.overview-table__column
-		padding-bottom: 0px
-		font-weight: 400
-		font-size: 12px
-		line-height: 24px
-	.overview-table__column-1
-		width: 200px
-	.overview-table__column-2
-		width: 180px
-	.overview-title
-		font-size: 18px
-		line-height: 28	px
-	.social-contacts
-		display: flex
-		font-weight: 400
-		font-size: 16px
-		line-height: 18px
-		margin-bottom: 30px
-
-	.social-contacts__item
-		padding: 5px 5px
-
-
-	.contact-email
-		font-weight: 400
-		font-size: 16px
-		line-height: 18px
-		color: #808080
-		margin-bottom: 30px
-			
-
-	.contact-button
-		min-width: 200px
-		min-height: 40px
-		border: 2px solid #FFFFFF
-		border-radius: 6px
-		font-weight: 400
-		font-size: 14px
-		line-height: 16px
+@media (max-width: 640px)
+	*
+		font-size: 16px !important
+		line-height: 18px !important
+		font-weight: 400 !important
+	
+	.hero-main__avatar
+		order: 0
+		width: 150px
+		height: 150px
+		border: 3px solid #ffffff
+		margin-bottom: 17px
+	.hero-main
+		padding-bottom: 60px
+	.social-links__item
+		margin-right: 10px
+	.features-title
+		text-align: center
+		padding-top: 15px
+	.features-block__card
+		flex-basis: 100%
+		text-align: center
+		margin: auto
+	.footer-contacts-block__form
+		width: 300px
+		min-height: 380px	
+		padding: 20px 18px 24px 18px
